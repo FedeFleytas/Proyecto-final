@@ -1,0 +1,52 @@
+/* Fuentes */
+
+/* Fin fuentes */
+
+/* Personalizacion text */
+
+/* Fin perso */
+
+body {
+    background-color: #1D201F;
+}
+
+
+/* Inicio header */
+.navitems {
+    justify-content: right;
+}
+
+.naver {
+    background-color: #0C0F0A;
+    border-top: 2px solid #00A676;
+    border-bottom: 2px solid #00A676;
+}
+
+a {
+    padding: 2px;
+}
+
+.navitems {
+    font-size: 25px;
+    color: #DDD5D0;
+    --bs-navbar-color: #DDD5D0;
+    --bs-navbar-hover-color: #DDD5D0;
+    --bs-navbar-disabled-color: #DDD5D0;
+}
+
+.name {
+    --bs-navbar-brand-font-size: 40px;
+    --bs-navbar-brand-color: #DDD5D0;
+    padding-left: 10px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+/* Fin header */
