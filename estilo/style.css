@@ -6,12 +6,70 @@
 
 /* Fin perso */
 
+/* General */
+
+
 body {
     background-color: #1D201F;
 }
 
+/* Inicio Header */
+.name {
+    --bs-navbar-brand-font-size: 40px;
+    --bs-navbar-brand-color: #DDD5D0;
+    padding-left: 10px;
+}
 
-/* Inicio header */
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.naver {
+    background-color: #0C0F0A;
+    border-top: 2px solid #00A676;
+    border-bottom: 2px solid #00A676;
+}
+
+.navitems {
+    font-size: 25px;
+    color: #DDD5D0;
+    background-color:#0C0F0A;
+    --bs-navbar-color: #DDD5D0;
+    --bs-navbar-hover-color: #DDD5D0;
+    --bs-navbar-disabled-color: #DDD5D0;
+    --bs-navbar-active-color: #DDD5D0;
+    --bs-dropdown-link-color: #DDD5D0;
+    --bs-dropdown-link-active-color: #0C0F0A
+    
+}
+/* Fin Header */
+
+/* Inicio Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fin General */
+
+/* Inicio Media queries */
+
+@media only screen and (min-width : 993px) {
+
+
+    /* Inicio header */
 .navitems {
     justify-content: right;
 }
@@ -22,31 +80,55 @@ body {
     border-bottom: 2px solid #00A676;
 }
 
-a {
-    padding: 2px;
-}
-
 .navitems {
     font-size: 25px;
     color: #DDD5D0;
+    background-color:#0C0F0A;
     --bs-navbar-color: #DDD5D0;
     --bs-navbar-hover-color: #DDD5D0;
     --bs-navbar-disabled-color: #DDD5D0;
+    --bs-navbar-active-color: #DDD5D0;
+    --bs-dropdown-link-color: #DDD5D0;
+    --bs-dropdown-link-active-color: #0C0F0A;
+    --bs-navbar-toggler-icon-bg: #DDD5D0;
 }
 
-.name {
-    --bs-navbar-brand-font-size: 40px;
-    --bs-navbar-brand-color: #DDD5D0;
-    padding-left: 10px;
+.listw:hover {
+    color: #00A676 !important;
 }
-.logo {
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
+
+.cate:active {
+    color: #00A676;
 }
+
+
+.name:hover {
+    color: #00A676;
+}
+
+
 
 
 
 
 /* Fin header */
+}
+
+
+/* Celulares */
+
+@media only screen and (min-width : 320px) {
+
+    /* Inicio Header */
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,166,118, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar-toggler {
+        border-color: #00A676;
+    }
+
+    /* Fin Header */
+}
+
+/* Fin Celulares */
