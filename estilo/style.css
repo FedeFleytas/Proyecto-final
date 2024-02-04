@@ -2,7 +2,11 @@
 
 /* Fin fuentes */
 
-/* Personalizacion text */
+/* Personalizacion txt */
+
+/* Fin personalizacion txt */
+
+
 
 /* Fin perso */
 
@@ -18,6 +22,13 @@ body {
     --bs-navbar-brand-font-size: 40px;
     --bs-navbar-brand-color: #DDD5D0;
     padding-left: 10px;
+
+}
+
+.name::first-letter {
+    color: #00A676;
+    font-size: 50px;
+    font-stretch: condensed;
 }
 
 .logo {
@@ -42,19 +53,24 @@ body {
     --bs-navbar-disabled-color: #DDD5D0;
     --bs-navbar-active-color: #DDD5D0;
     --bs-dropdown-link-color: #DDD5D0;
-    --bs-dropdown-link-active-color: #0C0F0A
+    --bs-dropdown-link-active-color: #0C0F0A;
     
 }
 /* Fin Header */
 
 /* Inicio Footer */
 
+footer {
+    border-top: 2px solid #00A676;
+    border-bottom: 2px solid #00A676;
+}
 
-
-
-
-
-
+.marca {
+    background-color: #00A676;
+    text-align: center;
+    padding-bottom: 1px;
+    height: 25px;
+}
 
 
 
@@ -69,50 +85,45 @@ body {
 @media only screen and (min-width : 993px) {
 
 
-    /* Inicio header */
-.navitems {
-    justify-content: right;
+/* Inicio header */
+    .navitems {
+        justify-content: right;
+    }
+
+    .naver {
+        background-color: #0C0F0A;
+        border-top: 2px solid #00A676;
+        border-bottom: 2px solid #00A676;
+    }
+
+    .navitems {
+        font-size: 25px;
+        color: #DDD5D0;
+        background-color:#0C0F0A;
+        --bs-navbar-color: #DDD5D0;
+        --bs-navbar-hover-color: #DDD5D0;
+        --bs-navbar-disabled-color: #DDD5D0;
+        --bs-navbar-active-color: #DDD5D0;
+        --bs-dropdown-link-color: #DDD5D0;
+        --bs-dropdown-link-active-color: #0C0F0A;
+        --bs-navbar-toggler-icon-bg: #DDD5D0;
+    }
+
+    .listw:hover {
+        color: #00A676 !important;
+    }
+
+    .cate:active {
+        color: #00A676;
+    }
+
+
+    .name:hover {
+        color: #00A676;
+    }
 }
-
-.naver {
-    background-color: #0C0F0A;
-    border-top: 2px solid #00A676;
-    border-bottom: 2px solid #00A676;
-}
-
-.navitems {
-    font-size: 25px;
-    color: #DDD5D0;
-    background-color:#0C0F0A;
-    --bs-navbar-color: #DDD5D0;
-    --bs-navbar-hover-color: #DDD5D0;
-    --bs-navbar-disabled-color: #DDD5D0;
-    --bs-navbar-active-color: #DDD5D0;
-    --bs-dropdown-link-color: #DDD5D0;
-    --bs-dropdown-link-active-color: #0C0F0A;
-    --bs-navbar-toggler-icon-bg: #DDD5D0;
-}
-
-.listw:hover {
-    color: #00A676 !important;
-}
-
-.cate:active {
-    color: #00A676;
-}
-
-
-.name:hover {
-    color: #00A676;
-}
-
-
-
-
-
 
 /* Fin header */
-}
 
 
 /* Celulares */
@@ -128,7 +139,6 @@ body {
         border-color: #00A676;
     }
 
-    /* Fin Header */
 }
 
-/* Fin Celulares */
+/* Fin Header */
