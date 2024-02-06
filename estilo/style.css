@@ -242,6 +242,10 @@ footer {
     width: 250px;
 }
 
+.infof::first-letter {
+    color: #00A676;
+}
+
 .contacte {
     text-align: center;
 }
