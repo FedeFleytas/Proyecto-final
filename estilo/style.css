@@ -87,18 +87,16 @@ body {
 
 .reco {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     padding-top: 30px;
-    margin-left: 50px;
 }
 
 .recor {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     padding-top: 10px;
-    margin-left: 50px;
 }
 
 .primera-fila {
