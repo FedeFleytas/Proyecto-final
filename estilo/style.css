@@ -4,6 +4,26 @@
 
 /* Personalizacion txt */
 
+.name {
+    color: #DDD5D0;
+    font-size: 40px;
+}
+
+.navname {
+    color: #DDD5D0;
+    font-size: 25px;
+}
+
+.price {
+    color: #00A676;
+    font-size: 25px;
+}
+
+.reco, .recor {
+    color: #DDD5D0;
+    font-size: 35px;
+}
+
 .textf {
     text-decoration: none;
     color: #DDD5D0;
@@ -16,20 +36,14 @@
 
 
 /* General */
-
-*{
-    margin: 0px;
-}
 body {
     background-color: #1D201F;
 }
 
 /* Inicio Header */
-.name {
-    --bs-navbar-brand-font-size: 40px;
-    --bs-navbar-brand-color: #DDD5D0;
-    padding-left: 10px;
 
+.name {
+    padding-left: 10px;
 }
 
 .name::first-letter {
@@ -57,7 +71,6 @@ body {
 }
 
 .navitems {
-    font-size: 25px;
     color: #DDD5D0;
     background-color:#0C0F0A;
     --bs-navbar-color: #DDD5D0;
@@ -72,30 +85,67 @@ body {
 
 /* Inicio main */
 
-.main {
+.reco {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    align-items: center;
+    padding-top: 30px;
+    margin-left: 50px;
 }
 
+.recor {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 50px;
+}
 
 .primera-fila {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+}
+
+.segunda-fila {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: px;
+}
+
+.cardtotal {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .boxfoto {
     border: 1px solid #70798C;
 }
 
+.imagencard:hover {
+    border: 3px solid #0C0F0A;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 
 .tarjeta {
     background-color: #1D201F;
     color: #DDD5D0;
-    border: 1px solid #00A676;
+    border-bottom: 1px solid #00A676;
+    border-left: 1px solid #00A676;
+    border-right: 1px solid #00A676;
+    border-top: 1px solid #00A676;
+    border-radius: 5px;
 }
 
+hr {
+    border: 3px solid #00A676;
+}
 
 /* Fin Main */
 
@@ -103,6 +153,7 @@ body {
 
 footer {
     border-top: 2px solid #00A676;
+    background-color: #0C0F0A;
 }
 
 .foot {
