@@ -4,15 +4,22 @@
 
 /* Personalizacion txt */
 
+.textf {
+    text-decoration: none;
+    color: #DDD5D0;
+}
+
+.textn {
+    font-size: 35px;
+}
 /* Fin personalizacion txt */
 
 
-
-/* Fin perso */
-
 /* General */
 
-
+*{
+    margin: 0px;
+}
 body {
     background-color: #1D201F;
 }
@@ -38,6 +45,11 @@ body {
     height: 100px;
 }
 
+.logo:hover {
+    transform: rotate(-360deg);
+    transition: 1s;
+}
+
 .naver {
     background-color: #0C0F0A;
     border-top: 2px solid #00A676;
@@ -58,23 +70,143 @@ body {
 }
 /* Fin Header */
 
+/* Inicio main */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.primera-fila {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.boxfoto {
+    border: 1px solid #70798C;
+}
+
+
+.tarjeta {
+    background-color: #1D201F;
+    color: #DDD5D0;
+    border: 1px solid #00A676;
+}
+
+
+/* Fin Main */
+
 /* Inicio Footer */
 
 footer {
     border-top: 2px solid #00A676;
-    border-bottom: 2px solid #00A676;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ayuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+}
+
+.footnav {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.textn:hover {
+    color: #00A676;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.logosred {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 250px;;
+}
+
+.red {
+    height: 40px;
+    width: 40px; 
+}
+
+.red:hover {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.i, .l, .t {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.i, .t {
+    margin-top: 30px;
+}
+
+.logotf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logot {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding-top: 5px;
+}
+
+.logot:hover {
+    transform: rotate(-360deg);
+    transition: 1s;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.infotf {
+    display: block;
+    width: 250px;
+}
+
+.contacte {
+    text-align: center;
 }
 
 .marca {
+    display: flex;
+    justify-content: center;
     background-color: #00A676;
     text-align: center;
-    padding-bottom: 1px;
     height: 25px;
 }
 
 
-
-
+/* Fin Footer */
 
 
 
