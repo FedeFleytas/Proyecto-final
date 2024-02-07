@@ -37,6 +37,35 @@
 .textn {
     font-size: 35px;
 }
+
+.contenedor-us {
+    color: #DDD5D0;
+}
+
+.titulo {
+    font-size: 45px;
+}
+
+.texton {
+    font-size: 23px;
+}
+
+.tf {
+    color: #00A676;
+}
+
+.contact {
+    color: #DDD5D0;
+}
+
+.form-input {
+    color: #DDD5D0;
+}
+
+.ubi {
+    color: #DDD5D0;
+}
+
 /* Fin personalizacion txt */
 
 
@@ -48,7 +77,6 @@ body {
 /* Inicio Header */
 
 .name {
-    padding-left: 10px;
     margin-right: 0 !important;
 }
 
@@ -91,6 +119,7 @@ body {
 
 /* Inicio main */
 
+/* Productos */
 .reco {
     display: flex;
     justify-content: center;
@@ -105,6 +134,9 @@ body {
     padding-top: 20px;
 }
 
+.primera {
+    margin-top: 10px !important;
+}
 
 .producto {
     max-width: 100%;
@@ -143,15 +175,103 @@ body {
     cursor: pointer;
 }
 
-
 .contenedor {
     height: 50%;
     width: 90%;
 }
 
-hr {
+.barra {
     border: 2px solid #00A676;
 }
+/* Fin Productos */
+
+/* Nosotros */
+.contenedor-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.texton {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* Fin Nosotros */
+
+/* Contacto */
+
+.ubi {
+    text-align: center;
+    color: #DDD5D0;
+    padding-top: 10px;
+}
+
+.contenedor-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+
+    display: grid;
+    grid-template-rows: repeat(1,auto);
+    width: 50%;
+}
+
+.mapa {
+    width: 100%;
+    border: 3px solid #00A676;
+}
+
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.colm {
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+    gap: 10px;
+    width: 60%;
+    height: 300px;
+}
+
+.form-input {
+    background-color: #0C0F0A;
+    padding: 10px;
+}
+
+.contb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcta {
+    border: 2px solid #00A676;
+    color: #DDD5D0;
+    background-color: #0C0F0A;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+
+/* Fin Contacto */
 
 /* Fin Main */
 
@@ -319,6 +439,11 @@ footer {
     .name:hover {
         color: #00A676;
     }
+
+    .name {
+        padding-left: 20px;
+        text-shadow: 0px 6px 3px rgba(134,134,134,0.67);
+    }
 }
 
 /* Fin header */
@@ -326,7 +451,7 @@ footer {
 
 /* Celulares */
 
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 320px) and (max-width : 993px) {
 
     /* Inicio Header */
     .navbar-toggler-icon {
@@ -337,7 +462,30 @@ footer {
         border-color: #00A676;
     }
 
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
 
+    .name {
+        font-size: 25px;
+        text-shadow: 0px 6px 3px rgba(134,134,134,0.67);
+    }
+
+    .name::first-letter {
+        font-size: 35px;
+        font-weight: 100px;
+    }
+
+    .titulo {
+        font-size: 35px;
+        padding: 15px 0;
+    }
+
+
+    .map {
+        width: 90%;
+    }
 }
 
 /* Fin Header */
