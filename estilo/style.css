@@ -14,14 +14,19 @@
     font-size: 25px;
 }
 
-.price {
-    color: #00A676;
-    font-size: 25px;
-}
-
 .reco, .recor {
     color: #DDD5D0;
     font-size: 35px;
+}
+
+.descripcion {
+    color: #DDD5D0;
+    font-size: 25px;
+}
+
+.precio {
+    color: #00A676;
+    font-size: 23px;
 }
 
 .textf {
@@ -44,6 +49,7 @@ body {
 
 .name {
     padding-left: 10px;
+    margin-right: 0 !important;
 }
 
 .name::first-letter {
@@ -96,52 +102,55 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
-.primera-fila {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
+
+.producto {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    border: 2px solid #70798C;
+    
 }
 
-.segunda-fila {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
+.descripcion {
+    display: block;
+    overflow: auto;
+    height: 190px;
+    object-fit: fill;
 }
 
-.cardtotal {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.precio {
+    text-align: center;
+    height: 30px;
 }
 
-.boxfoto {
-    border: 1px solid #70798C;
+.box {
+    border-left: 2px solid #00A676;
+    border-bottom: 2px solid #00A676;
+    border-right: 2px solid #00A676;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #0C0F0A;
+    max-height: 235px;
 }
 
-.imagencard:hover {
-    border: 3px solid #0C0F0A;
-    border-radius: 10px;
-    transform: scale(1.1);
+.producto:hover {
+    transform: scale(1.02);
     transition: 0.5s;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    cursor: pointer;
 }
 
 
-.tarjeta {
-    background-color: #1D201F;
-    color: #DDD5D0;
-    border-bottom: 1px solid #00A676;
-    border-left: 1px solid #00A676;
-    border-right: 1px solid #00A676;
-    border-top: 1px solid #00A676;
-    border-radius: 5px;
+.contenedor {
+    height: 50%;
+    width: 90%;
 }
 
 hr {
-    border: 3px solid #00A676;
+    border: 2px solid #00A676;
 }
 
 /* Fin Main */
@@ -164,7 +173,7 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 250px;
+    width: 300px;
 }
 
 .footnav {
@@ -180,12 +189,15 @@ footer {
 .redes {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    align-items: center;
+    margin-top: 10px;
     margin-bottom: 10px;
+    width: 385px;
 }
 .logosred {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     width: 250px;;
 }
@@ -234,6 +246,7 @@ footer {
     align-items: center;
     flex-direction: column;
     margin-top: 10px;
+    width: 300px;
 }
 
 .infotf {
@@ -246,6 +259,7 @@ footer {
 }
 
 .contacte {
+    display: flex;
     text-align: center;
 }
 
@@ -322,8 +336,6 @@ footer {
     .navbar-toggler {
         border-color: #00A676;
     }
-
-
 
 
 }
