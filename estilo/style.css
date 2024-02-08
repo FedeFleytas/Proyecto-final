@@ -1,30 +1,63 @@
 /* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+@font-face {
+    font-family: "atmo";
+    src: url(../fuentes/aAtmospheric.ttf) format("truetype");
+}
+
+/*
+font-family: 'Montserrat', sans-serif; 
+font-family: 'atmo', sans-serif;
+*/
 
 /* Fin fuentes */
 
 /* Personalizacion txt */
 
 .name {
+    font-family: "atmo", sans-serif;
     color: #DDD5D0;
     font-size: 40px;
 }
 
 .navname {
+    font-family: 'Montserrat', sans-serif; 
+    font-style: 500;
     color: #DDD5D0;
     font-size: 25px;
 }
 
-.reco, .recor {
+.textn {
+    font-family: 'Montserrat', sans-serif;
+    font-style: 500; 
+    font-style: bold;
     color: #DDD5D0;
     font-size: 35px;
 }
 
+.reco, .recor, .ubi, .contact, .titulo, .infof{
+    font-family: 'Montserrat', sans-serif;
+    font-style: 500; 
+    color: #DDD5D0;
+    font-size: 35px;
+}
+
+.contacte {
+    font-family: 'Montserrat', sans-serif;
+    font-style: 300; 
+}
+
 .descripcion {
+    font-family: 'Montserrat', sans-serif;
+    font-style: 300; 
     color: #DDD5D0;
     font-size: 25px;
 }
 
 .precio {
+    font-family: 'Montserrat', sans-serif;
+    font-style: Light; 
     color: #00A676;
     font-size: 23px;
 }
@@ -34,35 +67,23 @@
     color: #DDD5D0;
 }
 
-.textn {
-    font-size: 35px;
-}
-
 .contenedor-us {
     color: #DDD5D0;
 }
 
-.titulo {
-    font-size: 45px;
-}
-
 .texton {
-    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: 300; 
+    font-size: 20px;
 }
 
 .tf {
     color: #00A676;
 }
 
-.contact {
-    color: #DDD5D0;
-}
-
 .form-input {
-    color: #DDD5D0;
-}
-
-.ubi {
+    font-family: 'Montserrat', sans-serif;
+    font-style: 300; 
     color: #DDD5D0;
 }
 
@@ -91,11 +112,6 @@ body {
     justify-content: center;
     width: 100px;
     height: 100px;
-}
-
-.logo:hover {
-    transform: rotate(-360deg);
-    transition: 1s;
 }
 
 .naver {
@@ -167,13 +183,7 @@ body {
     max-height: 235px;
 }
 
-.producto:hover {
-    transform: scale(1.02);
-    transition: 0.5s;
-    border-top-left-radius: 4%;
-    border-top-right-radius: 4%;
-    cursor: pointer;
-}
+
 
 .contenedor {
     height: 50%;
@@ -302,9 +312,7 @@ footer {
     padding: 0px;
 }
 
-.textn:hover {
-    color: #00A676;
-}
+
 
 .redes {
     display: flex;
@@ -327,10 +335,6 @@ footer {
     width: 40px; 
 }
 
-.red:hover {
-    transform: scale(1.5);
-    transition: 2s;
-}
 
 .i, .l, .t {
     margin-left: 10px;
@@ -355,11 +359,6 @@ footer {
     padding-top: 5px;
 }
 
-.logot:hover {
-    transform: rotate(-360deg);
-    transition: 1s;
-}
-
 .info {
     display: flex;
     justify-content: center;
@@ -371,7 +370,7 @@ footer {
 
 .infotf {
     display: block;
-    width: 250px;
+    width: 260px;
 }
 
 .infof::first-letter {
@@ -398,10 +397,11 @@ footer {
 
 /* Fin General */
 
+
+
 /* Inicio Media queries */
 
 @media only screen and (min-width : 993px) {
-
 
 /* Inicio header */
     .navitems {
@@ -427,6 +427,24 @@ footer {
         --bs-navbar-toggler-icon-bg: #DDD5D0;
     }
 
+    .producto:hover {
+        transform: scale(1.02);
+        transition: 0.5s;
+        border-top-left-radius: 4%;
+        border-top-right-radius: 4%;
+        cursor: pointer;
+    }
+
+    .logo:hover {
+        transform: rotate(-360deg);
+        transition: 1s;
+    }
+
+    .logot:hover {
+        transform: rotate(-360deg);
+        transition: 1s;
+    }
+
     .listw:hover {
         color: #00A676 !important;
     }
@@ -435,8 +453,16 @@ footer {
         color: #00A676;
     }
 
+    .red:hover {
+        transform: scale(1.5);
+        transition: 2s;
+    }
 
     .name:hover {
+        color: #00A676;
+    }
+
+    .textn:hover {
         color: #00A676;
     }
 
@@ -453,7 +479,6 @@ footer {
 
 @media only screen and (min-width : 320px) and (max-width : 993px) {
 
-    /* Inicio Header */
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,166,118, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
@@ -468,13 +493,31 @@ footer {
     }
 
     .name {
-        font-size: 25px;
+        font-size: 20px;
         text-shadow: 0px 6px 3px rgba(134,134,134,0.67);
     }
 
     .name::first-letter {
         font-size: 35px;
         font-weight: 100px;
+    }
+
+    .reco, .recor, .ubi, .contact, .titulo {
+        font-family: 'Russo One', sans-serif;
+        color: #DDD5D0;
+        font-size: 25px;
+    }
+
+    .descripcion {
+        display: block;
+        overflow: auto;
+        height: 150px;
+        object-fit: fill;
+        font-size: 20px;
+    }
+
+    .precio {
+        font-size: 20px;
     }
 
     .titulo {
