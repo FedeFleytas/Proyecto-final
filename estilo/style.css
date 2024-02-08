@@ -57,12 +57,14 @@ font-family: 'atmo', sans-serif;
 
 .precio {
     font-family: 'Montserrat', sans-serif;
-    font-style: Light; 
+    font-style: 300; 
     color: #00A676;
     font-size: 23px;
 }
 
 .textf {
+    font-family: 'Montserrat', sans-serif;
+    font-style: 300; 
     text-decoration: none;
     color: #DDD5D0;
 }
@@ -87,6 +89,7 @@ font-family: 'atmo', sans-serif;
     color: #DDD5D0;
 }
 
+
 /* Fin personalizacion txt */
 
 
@@ -101,7 +104,14 @@ body {
     margin-right: 0 !important;
 }
 
-.name::first-letter {
+/* .name::first-letter {
+    color: #00A676;
+    font-size: 50px;
+    font-stretch: condensed;
+} */
+
+.name::before {
+    content: "T";
     color: #00A676;
     font-size: 50px;
     font-stretch: condensed;
@@ -130,6 +140,10 @@ body {
     --bs-dropdown-link-color: #DDD5D0;
     --bs-dropdown-link-active-color: #0C0F0A;
     
+}
+
+.cuadro {
+    border: 2px solid #00A676;
 }
 /* Fin Header */
 
@@ -189,6 +203,13 @@ body {
     height: 50%;
     width: 90%;
 }
+
+.divisor {
+    height: 4px;
+    background-color: #00A676;
+    margin: 20px 0;
+}
+
 
 .barra {
     border: 2px solid #00A676;
@@ -383,6 +404,8 @@ footer {
 }
 
 .marca {
+    font-family: "Montserrat", sans-serif;
+    font-style: 300;
     display: flex;
     justify-content: center;
     background-color: #00A676;
@@ -502,8 +525,15 @@ footer {
         font-weight: 100px;
     }
 
+    .navname {
+        font-family: 'Montserrat', sans-serif; 
+        font-style: 500;
+        font-size: 20px;
+    }
+
     .reco, .recor, .ubi, .contact, .titulo {
-        font-family: 'Russo One', sans-serif;
+        font-family: 'Montserrat', sans-serif; 
+        font-style: 500;
         color: #DDD5D0;
         font-size: 25px;
     }
@@ -529,6 +559,26 @@ footer {
     .map {
         width: 90%;
     }
+
+    .textn {
+            font-family: 'Montserrat', sans-serif;
+            font-style: 500;
+            font-size: 30px; 
+    }
+
+    .infof {
+        font-family: 'Montserrat', sans-serif;
+        font-style: 500;
+        font-size: 30px; 
+    }
+
+    .contacte {
+        font-family: 'Montserrat', sans-serif;
+        font-style: 300;
+        font-size: 20px; 
+    }
+
+
 }
 
 /* Fin Header */
