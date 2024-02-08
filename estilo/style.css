@@ -104,14 +104,7 @@ body {
     margin-right: 0 !important;
 }
 
-/* .name::first-letter {
-    color: #00A676;
-    font-size: 50px;
-    font-stretch: condensed;
-} */
-
-.name::before {
-    content: "T";
+.name::first-letter {
     color: #00A676;
     font-size: 50px;
     font-stretch: condensed;
