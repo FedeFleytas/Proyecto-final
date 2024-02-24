@@ -1,8 +1,10 @@
-/* Colores */
-/* Estructura */
-/* Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@font-face {
+  font-family: "atmo";
+  src: url(../fuentes/aAtmospheric.ttf) format("truetype");
+}
 /* Listas colores*/
-/* lighten | rgba | mix | saturate*/
+/* lighten | rgba | mix | saturate */
 /* $red, $green*/
 /* hr: {
     border-color: saturate(green, 50%);
