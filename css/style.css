@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@font-face {
+  font-family: "atmo";
+  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+}
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+/* lighten | rgba | mix | saturate */
+/* $red, $green*/
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
+body {
+  background-color: #1d201f;
+}
+
+header {
+  background-color: #0C0F0A;
+}
+header .naver .logo {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+@media only screen and (min-width: 993px) {
+  header .naver .logo:hover {
+    transform: rotate(-360deg);
+    transition: 1s;
+  }
+}
+header .naver .name {
+  margin-right: 0 !important;
+  padding-left: 20px;
+  color: #DDD5D0;
+  font-family: "atmo";
+  font-size: 40px;
+  text-shadow: 0px 6px 3px rgba(134, 134, 134, 0.67);
+}
+header .naver .name::first-letter {
+  color: #00A676;
+  font-size: 50px;
+  font-stretch: condensed;
+}
+header .naver .name:hover {
+  color: #00A676;
+}
+@media only screen and (min-width: 320px) and (max-width: 993px) {
+  header .naver .name {
+    font-size: 20px;
+    text-shadow: 0px 6px 3px rgba(134, 134, 134, 0.67);
+  }
+  header .naver .name::first-letter {
+    font-size: 35px;
+  }
+}
+header .naver .navbar-toggler {
+  border: 2px outset #00A676;
+}
+@media only screen and (min-width: 320px) and (max-width: 993px) {
+  header .naver .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,166,118, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: #00A676;
+  }
+}
+header .naver .navitems {
+  color: #DDD5D0;
+  background-color: #0C0F0A;
+}
+@media only screen and (min-width: 993px) {
+  header .naver .navitems {
+    justify-content: right;
+  }
+}
+header .naver .navitems .cuadro {
+  border: 2px outset #00A676;
+}
+header .naver .navname {
+  color: #DDD5D0 !important;
+  font-family: "montserrat" 500;
+  font-size: 25px;
+}
+header .naver .navname:hover {
+  color: #00A676 !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 993px) {
+  header .naver .navname {
+    font-family: "montserrat" 500;
+    font-size: 20px;
+  }
+}
+
+@font-face {
+  font-family: "atmo";
+  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+}
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+/* lighten | rgba | mix | saturate */
+/* $red, $green*/
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
+@font-face {
+  font-family: "atmo";
+  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+}
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+/* lighten | rgba | mix | saturate */
+/* $red, $green*/
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
+@font-face {
+  font-family: "atmo";
+  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+}
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+/* lighten | rgba | mix | saturate */
+/* $red, $green*/
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
+
+/*# sourceMappingURL=style.css.map */

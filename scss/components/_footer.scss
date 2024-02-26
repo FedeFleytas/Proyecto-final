@@ -1,0 +1,196 @@
+@import "../base/variables";
+@import "../base/listas";
+@import "../base/mapas";
+@import "../base/extends";
+@import "../base/mixins";
+
+
+footer {
+
+    background-color: $bg-color-tb;
+    border-top: $borderfoot;
+
+    div {
+        .foot {
+            display: flex;
+            justify-content: space-evenly;
+    
+            .ayuda {
+    
+                @extend %flex-center;
+                flex-direction: column;
+                text-align: center;
+                width: 300px;
+    
+                .footnav {
+                    list-style: none;
+                    text-decoration: none;
+                    padding: 0px;
+
+                    li {
+                        padding: 10px 0;
+                        
+                    }
+
+                    .textf {
+                        list-style: none;
+                        text-decoration: none;
+                        @media only screen and (min-width : 320px) and (max-width : 993px) {
+                            font-family: $fuente-principal;
+                            font-size: $size-fuente-cel;
+                            font-style: $estilo-fuente-p;
+                        }
+                    }
+                    .textn {
+                        font-family: $fuente-principal;
+                        font-size: $size-fuente-p;
+                        font-style: $estilo-fuente-p;
+                        color: $color-fuente;
+                        @media only screen and (min-width : 320px) and (max-width : 993px) {
+                            font-family: $fuente-principal;
+                            font-size: 30px;
+                            font-style: $estilo-fuente-p;
+                        }
+
+                        &:hover {
+                            color: $color-hover;
+                        }
+
+                    }
+    
+                }
+            }
+        }
+
+        .redes {
+    
+            @extend %flex-center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 385px;
+    
+            .logosred {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                width: 250px;
+                .red {
+                    height: 40px;
+                    width: 40px;
+
+                    @media only screen and (min-width : 993px) {
+                        &:hover {
+                            transform: scale(1.5);
+                            transition: 2s;
+                        }
+                    }
+
+                }
+                .i {
+                    margin: $margin-x;
+                    margin-top: 40px;
+                }
+                .t {
+                    margin: $margin-x;
+                    margin-top: 40px;
+                }
+                .l {
+                    margin: $margin-x;
+                }
+            }
+            .logotf {
+                @extend %flex-center;
+                padding-top: 20px;
+    
+                .logot {
+                    @extend %flex-center;
+                    width: 100px;
+                    height: 100px;
+                    padding-top: 5px;
+
+                    @media only screen and (min-width : 993px) {
+                        &:hover {
+                            transform: rotate(-360deg);
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+        }
+
+        .info {
+            @extend %flex-center;
+            flex-direction: column;
+            margin-top: 10px;
+            width: 300px;
+
+            .textf {
+                text-decoration: none;
+                font-family: $fuente-principal;
+                font-style: $estilo-fuente-p;
+                font-size: $size-fuente-p;
+            }
+
+            #info {
+                cursor: default;
+                
+            }
+            
+            .infof {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: $fuente-principal;
+                font-size: $size-fuente-p;
+                font-style: $estilo-fuente-p;
+                color: $color-fuente;
+                @media only screen and (min-width : 320px) and (max-width : 993px) {
+                    font-family: $fuente-principal;
+                    font-size: 30px;
+                    font-style: $estilo-fuente-p;
+                }
+            }
+
+            .infotf {
+                font-family: $fuente-principal;
+                font-style: $estilo-fuente-p;
+                font-size: $size-fuente-p;
+                display: block;
+                width: 300px;
+                cursor: default;
+
+                .contacte {
+                    display: flex;
+                    text-align: center;
+                    font-family: $fuente-principal;
+                    font-style: $estilo-fuente-s;
+                    font-size: 20px;
+                    color: $color-fuente;
+                    @media only screen and (min-width : 320px) and (max-width : 993px) {
+                        font-family: $fuente-principal;
+                        font-size: 15px;
+                        font-style: $estilo-fuente-p;
+                    }
+                }
+            }
+        }
+
+        .marca {
+
+            @extend %flex-center;
+            height: 25px;
+            background-color: $color-hover;
+
+            .marca-propia {
+                @extend %flex-center;
+                font-family: $fuente-principal;
+                font-style: $estilo-fuente-p;
+                font-size: 15px;
+            }
+        }
+    }
+
+}

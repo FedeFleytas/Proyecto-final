@@ -1,0 +1,16 @@
+@import "../base/variables";
+@import "../base/listas";
+@import "../base/mapas";
+@import "../base/extends";
+@import "../base/mixins";
+
+section {
+    div {
+        div {
+            .banner {
+                object-fit: fill;
+                height: 558px auto;
+            }
+        }
+    }
+}

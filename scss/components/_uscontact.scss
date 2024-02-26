@@ -1,0 +1,132 @@
+@import "../base/variables";
+@import "../base/listas";
+@import "../base/mapas";
+@import "../base/extends";
+@import "../base/mixins";
+
+//  Nosotros main
+main {
+    section {
+        .contenedor-us {
+            color: $color-fuente;
+            @extend %flex-center;
+            flex-direction: column;
+            height: 100%;
+            margin-top: 5px;
+            .titulo {
+                @extend %textprim;
+                color: $color-fuente;
+                padding: 15px 0;
+
+                @media only screen and (min-width : 320px) and (max-width : 993px) {
+                    font-size: $size-fuente-s;
+                }
+            }
+            .texton {
+                text-align: center;
+                max-width: 60%;
+                margin: 0 auto;
+                font-family: $fuente-principal;
+                font-style: $estilo-fuente-s;
+                font-size: $size-fuente-cel;
+                
+                .bienvenido {
+                    .tf {
+                        color: $color-hover;
+                    }
+                }
+            }
+        }
+    }
+}
+//  Fin Nosotros Main
+
+
+// Contacto Main
+.mainer {
+    .primer-sec {
+        .ubi {
+            text-align: center;
+            color: $color-fuente;
+            padding-top: 10px;
+            @media only screen and (min-width : 320px) and (max-width : 993px) {
+                font-family: $fuente-principal;
+                font-size: $size-fuente-cel;
+                font-style: $estilo-fuente-p;
+            }
+        }
+        .contenedor-map {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .map {
+                display: grid;
+                grid-template-rows: repeat(1, auto);
+                width: 50%;
+                @media only screen and (min-width: 609px) and (max-width: 993px) {
+                    width: 50%;
+                }
+                @media only screen and (max-width: 609px) and (min-width: 320px) {
+                    width: 80%;
+                }
+                .mapa {
+                    width: 100%;
+                    border: 3px solid #00A676;
+                }
+            }
+        }
+    }
+    .segundo-sec {
+        padding-bottom: 25px;
+        .form {
+            @extend %flex-center;
+            .colm {
+                display: grid;
+                grid-template-rows: repeat(5, auto);
+                gap: 10px;
+                width: 60%;
+                height: 300px;
+                .contact {
+                    color: $color-fuente;
+                    text-align: center;
+                    padding-top: 20px;
+                    @media only screen and (min-width : 320px) and (max-width : 993px) {
+                        font-family: $fuente-principal;
+                        font-size: $size-fuente-cel;
+                        font-style: $estilo-fuente-p;
+                    }
+                    .nombre {
+                        .mail {
+                            .formmsg {
+                                border: $borderfoot;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .formcont {
+                .form-input {
+                    color: $color-fuente;
+                    background-color: $bg-color-tb;
+                }
+            }
+
+            .contb {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .formcta {
+                    border: $borderfoot;
+                    color: #DDD5D0;
+                    background-color: #0C0F0A;
+                    width: 80px;
+                    height: 40px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+// Fin Contacto Main

@@ -3,9 +3,56 @@
 
 @font-face {
     font-family: "atmo";
-    src: url(../fuentes/aAtmospheric.ttf) format("truetype");
+    src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
 
 // fin fuentes
 
 
+// Tamaño fuentes, estilo y Fuentes
+
+$fuente-name: "atmo";
+$fuente-principal: "Montserrat";
+$fuente-secuntaria: "Montserrat";
+
+$estilo-fuente-p: 500;
+$estilo-fuente-s: 300;
+
+
+$size-fuente-name: 40px;
+$size-fuente-fletter: 50px;
+$size-fuente-p: 35px;
+$size-fuente-s: 25px;
+$size-fuente-cel: 20px;
+
+$stretch: condensed;
+
+$weight: 100px;
+
+$shadow: 0px 6px 3px rgba(134,134,134,0.67);
+
+// Fin tamaño y fuente
+
+// colores
+
+$color-fuente: #DDD5D0;
+$color-hover: #00A676;
+$bg-color-tb: #0C0F0A;
+$bg-color-principal: #1d201f;
+
+// fin colores
+
+
+// bordes 
+
+$borderfoot: 2px solid #00A676;
+$borders: 2px outset #00A676;
+$borderprod: 2px solid #70798c;
+
+// fin bordes
+
+// Margin 
+
+$margin-x: 0px 10px 0px 10px;
+
+// fin margin

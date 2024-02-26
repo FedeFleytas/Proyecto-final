@@ -242,7 +242,6 @@ body {
 }
 
 .map {
-
     display: grid;
     grid-template-rows: repeat(1,auto);
     width: 50%;
