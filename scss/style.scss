@@ -1,16 +1,14 @@
-@import "components/header";
-@import "components/products";
-@import "components/uscontact";
-@import "components/footer";
-@import "components/banner";
-
-
-
 @import "base/variables";
 @import "base/listas";
 @import "base/mapas";
 @import "base/extends";
 @import "base/mixins";
+
+@import "components/header";
+@import "components/products";
+@import "components/uscontact";
+@import "components/footer";
+@import "components/banner";
 
 
 

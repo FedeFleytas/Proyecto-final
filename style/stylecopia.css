@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
 @font-face {
   font-family: "Atmo";
   src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
+
+
 header {
   border-top: 2px solid #00A676;
   border-bottom: 2px solid #00A676;
@@ -25,6 +28,7 @@ main section .contenedor-us .titulo {
   font-size: 25px;
   font-style: 300;
 }
+
 
 body {
   background-color: #1d201f;
@@ -140,6 +144,30 @@ header .naver .navitems .listw:hover {
 }
 header .naver .navitems .cuadro {
   border: 2px outset #00A676;
+}
+
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+footer div .marca .marca-propia, footer div .marca, footer div .info, footer div .redes .logotf .logot, footer div .redes .logotf, footer div .redes, footer div .foot .ayuda, .mainer .segundo-sec .form, main section .contenedor-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .contenedor-us .titulo {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-style: 500;
+}
+
+.containeer .prod .proc-conte .prode .prod-txt .precc {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-style: 300;
 }
 
 .containeer {
@@ -261,6 +289,29 @@ header .naver .navitems .cuadro {
   color: #00A676;
 }
 
+
+footer div .marca .marca-propia, footer div .marca, footer div .info, footer div .redes .logotf .logot, footer div .redes .logotf, footer div .redes, footer div .foot .ayuda, .mainer .segundo-sec .form, main section .contenedor-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .contenedor-us .titulo {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-style: 500;
+}
+
+.containeer .prod .proc-conte .prode .prod-txt .precc {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-style: 300;
+}
+
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
 main section .contenedor-us {
   color: #DDD5D0;
   flex-direction: column;
@@ -367,6 +418,34 @@ main section .contenedor-us .texton .bienvenido .tf {
   text-align: center;
 }
 
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+footer div .marca .marca-propia, footer div .marca, footer div .info, footer div .redes .logotf .logot, footer div .redes .logotf, footer div .redes, footer div .foot .ayuda, main section .contenedor-us, .mainer .segundo-sec .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .contenedor-us .titulo {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-style: 500;
+}
+
+.containeer .prod .proc-conte .prode .prod-txt .precc {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-style: 300;
+}
+
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
 footer {
   background-color: #0C0F0A;
   border-top: 2px solid #00A676;
@@ -527,6 +606,35 @@ footer div .marca .marca-propia {
   font-size: 15px;
 }
 
+
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+main section .contenedor-us, .mainer .segundo-sec .form, footer div .foot .ayuda, footer div .redes, footer div .redes .logotf, footer div .redes .logotf .logot, footer div .info, footer div .marca, footer div .marca .marca-propia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .contenedor-us .titulo {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-style: 500;
+}
+
+.containeer .prod .proc-conte .prode .prod-txt .precc {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-style: 300;
+}
+
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
 section div div .banner {
   object-fit: fill;
   height: 558px auto;
