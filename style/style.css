@@ -3,9 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 @font-face {
-  font-family: "atmo";
-  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+  font-family: "Atmo";
+  src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
 /* Listas colores*/
 header {
@@ -75,7 +76,7 @@ header .naver .logo {
 header .naver .name {
   margin-right: 0 !important;
   color: #DDD5D0;
-  font-family: "atmo";
+  font-family: "atmo", sans-serif;
   font-size: 40px;
   text-shadow: 0px 6px 3px rgba(134, 134, 134, 0.67);
 }
@@ -152,8 +153,8 @@ header .naver .navitems .cuadro {
 }
 
 @font-face {
-  font-family: "atmo";
-  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+  font-family: "Atmo";
+  src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
 /* Listas colores*/
 header {
@@ -303,8 +304,8 @@ main section .contenedor-us .titulo {
 }
 
 @font-face {
-  font-family: "atmo";
-  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+  font-family: "Atmo";
+  src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
 /* Listas colores*/
 header {
@@ -441,8 +442,8 @@ main section .contenedor-us .texton .bienvenido .tf {
 }
 
 @font-face {
-  font-family: "atmo";
-  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+  font-family: "Atmo";
+  src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
 /* Listas colores*/
 header {
@@ -633,8 +634,8 @@ footer div .marca .marca-propia {
 }
 
 @font-face {
-  font-family: "atmo";
-  src: url(../../fonts/atmos/aAtmospheric.ttf) format("truetype");
+  font-family: "Atmo";
+  src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
 /* Listas colores*/
 header {
@@ -668,5 +669,38 @@ section div div .banner {
   object-fit: fill;
   height: 558px auto;
 }
+
+@font-face {
+  font-family: "Atmo";
+  src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
+}
+/* Listas colores*/
+header {
+  border-top: 2px solid #00A676;
+  border-bottom: 2px solid #00A676;
+}
+
+main section .contenedor-us, .mainer .segundo-sec .form, footer div .foot .ayuda, footer div .redes, footer div .redes .logotf, footer div .redes .logotf .logot, footer div .info, footer div .marca, footer div .marca .marca-propia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .contenedor-us .titulo {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-style: 500;
+}
+
+.containeer .prod .proc-conte .prode .prod-txt .precc {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-style: 300;
+}
+
+/*@mixin insane ($border, $color){
+    border: $border;
+    color: $color;
+*/
 
 /*# sourceMappingURL=style.css.map */

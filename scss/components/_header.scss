@@ -4,10 +4,13 @@
 @import "../base/extends";
 @import "../base/mixins";
 
+// fondo pagina
 body {
     background-color: $bg-color-principal;
 }
+// fin fondo pagina
 
+//header 
 header {
     background-color: $bg-color-tb;
     @extend %h-f;
@@ -130,3 +133,5 @@ header {
         }
     }
 }
+
+// fin header
