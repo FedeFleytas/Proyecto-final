@@ -27,7 +27,7 @@ main section .contenedor-us .titulo {
 }
 
 body {
-  background-color: #1d201f;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTMyYWhjZWpiMGExYmFnd202OHFxbngwcjh0NXA5bnhwdjgxeWI3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xVn3ZmKrKIOLS/giphy.gif);
 }
 
 header {
@@ -161,7 +161,7 @@ header .naver .navitems .cuadro {
 }
 .containeer .reco span {
   padding: 0 1rem;
-  background-color: #1d201f;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTMyYWhjZWpiMGExYmFnd202OHFxbngwcjh0NXA5bnhwdjgxeWI3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xVn3ZmKrKIOLS/giphy.gif);
 }
 .containeer .cont-gen {
   padding: 50px 0;
@@ -183,7 +183,7 @@ header .naver .navitems .cuadro {
 }
 .containeer .cont-gen .genero-i .bg-gen {
   padding: 0 1rem;
-  background-color: #1d201f;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTMyYWhjZWpiMGExYmFnd202OHFxbngwcjh0NXA5bnhwdjgxeWI3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xVn3ZmKrKIOLS/giphy.gif);
   text-shadow: 1px 1px 14px #00b9fb;
 }
 .containeer .cont-gen .genero-a {
@@ -202,7 +202,7 @@ header .naver .navitems .cuadro {
 }
 .containeer .cont-gen .genero-a .bg-gen {
   padding: 0 1rem;
-  background-color: #1d201f;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTMyYWhjZWpiMGExYmFnd202OHFxbngwcjh0NXA5bnhwdjgxeWI3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xVn3ZmKrKIOLS/giphy.gif);
   border: 2px ca #ff6e2d;
   text-shadow: 1px 1px 14px #f94d00;
 }
