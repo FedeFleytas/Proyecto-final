@@ -152,7 +152,7 @@ header .naver .navitems .cuadro {
   font-style: 500;
   color: #DDD5D0;
   line-height: 0.1rem;
-  border-bottom: 2px solid #00d99a;
+  border-bottom: 2px solid #a6ffe5;
 }
 @media only screen and (min-width: 320px) and (max-width: 993px) {
   .containeer .reco {
@@ -162,6 +162,63 @@ header .naver .navitems .cuadro {
 .containeer .reco span {
   padding: 0 1rem;
   background-color: #1d201f;
+}
+.containeer .cont-gen {
+  padding: 50px 0;
+  text-align: center;
+}
+.containeer .cont-gen .genero-i {
+  font-family: "atmo";
+  font-size: 35px;
+  font-style: 500;
+  color: #DDD5D0;
+  line-height: 0.1rem;
+  border-bottom: 2px dashed #00b9fb;
+  padding-top: 2rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 993px) {
+  .containeer .cont-gen .genero-i {
+    font-size: 25px;
+  }
+}
+.containeer .cont-gen .genero-i .bg-gen {
+  padding: 0 1rem;
+  background-color: #1d201f;
+  text-shadow: 1px 1px 14px #00b9fb;
+}
+.containeer .cont-gen .genero-a {
+  font-family: "atmo";
+  font-size: 35px;
+  font-style: 500;
+  color: #DDD5D0;
+  line-height: 0.1rem;
+  border-top: 2px dashed #f94d00;
+  padding-top: 0.1rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 993px) {
+  .containeer .cont-gen .genero-a {
+    font-size: 25px;
+  }
+}
+.containeer .cont-gen .genero-a .bg-gen {
+  padding: 0 1rem;
+  background-color: #1d201f;
+  border: 2px ca #ff6e2d;
+  text-shadow: 1px 1px 14px #f94d00;
+}
+.containeer .genero-line-i {
+  display: block;
+  line-height: 0.1rem;
+  border-radius: 60px;
+  border-bottom: 2px dashed #00b9fb;
+  padding-top: 2rem;
+}
+.containeer .genero-line-a {
+  display: block;
+  line-height: 0.1rem;
+  border-radius: 60px;
+  border-bottom: 2px dashed #f94d00;
+  padding-top: 2rem;
 }
 .containeer .prod {
   display: flex;
