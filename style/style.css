@@ -8,7 +8,7 @@ header {
   border-bottom: 2px solid #00A676;
 }
 
-footer div .marca .marca-propia, footer div .marca, footer div .info, footer div .redes .logotf .logot, footer div .redes .logotf, footer div .redes, footer div .foot .ayuda, .mainer .segundo-sec .form, main section .contenedor-us {
+footer div .marca .marca-propia, footer div .marca, footer div .info, footer div .redes .logotf .logot, footer div .redes .logotf, footer div .redes, footer div .foot .ayuda, .mainer .segundo-sec .form .contb, .mainer .segundo-sec .form, .mainer .primer-sec .contenedor-map, main section .contenedor-us, .containeer .prod {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,9 +221,6 @@ header .naver .navitems .cuadro {
   padding-top: 2rem;
 }
 .containeer .prod {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 50px 0;
   text-align: center;
 }
@@ -280,7 +277,7 @@ header .naver .navitems .cuadro {
 @media only screen and (min-width: 993px) and (max-width: 1386px) {
   .containeer .prod .proc-conte .prode .fotoo {
     width: 330px;
-    height: auto;
+    height: 330px;
   }
 }
 @media only screen and (max-width: 830px) and (min-width: 433px) {
@@ -338,8 +335,8 @@ main section .contenedor-us .texton {
   max-width: 60%;
   margin: 0 auto;
   font-family: "Montserrat";
-  font-style: 300;
   font-size: 20px;
+  font-style: 500;
 }
 main section .contenedor-us .texton .bienvenido .tf {
   color: #00A676;
@@ -356,11 +353,6 @@ main section .contenedor-us .texton .bienvenido .tf {
     font-size: 20px;
     font-style: 500;
   }
-}
-.mainer .primer-sec .contenedor-map {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .mainer .primer-sec .contenedor-map .map {
   display: grid;
@@ -410,15 +402,10 @@ main section .contenedor-us .texton .bienvenido .tf {
   color: #DDD5D0;
   background-color: #0C0F0A;
 }
-.mainer .segundo-sec .form .contb {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .mainer .segundo-sec .form .contb .formcta {
   border: 2px solid #00A676;
   color: #DDD5D0;
-  background-color: #0C0F0A;
+  background-color: #1d201f;
   width: 80px;
   height: 40px;
   text-align: center;

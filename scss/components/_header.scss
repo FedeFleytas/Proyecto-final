@@ -7,14 +7,14 @@ body {
 
 //header 
 header {
-    background-color: $bg-color-tb;
+    background-color:  map-get($map: $paleta, $key: "fondos");
     @extend %h-f;
     .naver {
-        background-color: $bg-color-tb;
+        background-color: map-get($map: $paleta, $key: "fondos");
         border-top: $borderfoot;
         border-bottom: $borderfoot;
         @media only screen and (min-width : 993px) {
-            background-color: $bg-color-tb;
+            background-color: map-get($map: $paleta, $key: "fondos");
             border-top: $borderfoot;
             border-bottom: $borderfoot;
         }
@@ -39,25 +39,26 @@ header {
 
         .name {
             margin-right: 0 !important;
-            color: $color-fuente;
+            color: map-get($map: $paleta, $key: "primario");
             font-family: "atmo", sans-serif;
             font-size: $size-fuente-name;
             text-shadow: $shadow;
 
             &::first-letter {
-                color: $color-hover;
+                color: map-get($map: $paleta, $key: "secundario");
                 font-size: $size-fuente-fletter;
                 font-stretch: $stretch;
             }
 
             &:hover {
-                color: $color-hover;
+                color: map-get($map: $paleta, $key: "secundario");
 
             }
 
             @media only screen and (min-width : 993px) {
                 padding-left: 20px;
             }
+
             @media only screen and (min-width: 320px) and (max-width: 993px) {
                 font-size: $size-fuente-cel;
                 text-shadow: $shadow;
@@ -71,7 +72,7 @@ header {
 
         .navbar-toggler {
             @media only screen and (min-width : 320px) and (max-width : 993px){
-                border: $color-hover;
+                border:  map-get($map: $paleta, $key: "secundario");
             }
         }
 
@@ -86,13 +87,13 @@ header {
         }
 
         .navitems {
-            color: $color-fuente;
-            background-color: $bg-color-tb;
+            color: map-get($map: $paleta, $key: "primario");
+            background-color: map-get($map: $paleta, $key: "fondos");
 
             @media only screen and (min-width: 993px) {
                 justify-content: right;
                 font-size: $size-fuente-s;
-                background-color: $bg-color-tb;
+                background-color: map-get($map: $paleta, $key: "fondos");
             }
 
             @media only screen and (min-width : 320px) and (max-width : 993px) {
@@ -101,12 +102,12 @@ header {
             }
 
             .navname {
-                color:$color-fuente !important;
+                color:map-get($map: $paleta, $key: "primario") !important;
                 font-family: $fuente-principal;
                 font-style: $estilo-fuente-p;
                 font-size: $size-fuente-s;
                 &:hover {
-                    color: $color-hover !important;
+                    color:  map-get($map: $paleta, $key: "secundario") !important;
                 }
                 @media only screen and (min-width : 320px) and (max-width : 993px) {
                     font-family: $fuente-principal;
@@ -118,7 +119,7 @@ header {
 
             .listw {
                 &:hover {
-                    color: $color-hover;
+                    color:  map-get($map: $paleta, $key: "secundario");
                 }
             }
 
