@@ -3,9 +3,6 @@
   font-family: "Atmo";
   src: url(../fonts/atmos/aAtmospheric.ttf) format("truetype");
 }
-
-
-/* Header */
 header {
   border-top: 2px solid #00A676;
   border-bottom: 2px solid #00A676;
@@ -38,21 +35,17 @@ header {
 }
 header .naver {
   background-color: #0C0F0A;
-  border-top: 2px solid #00A676;
-  border-bottom: 2px solid #00A676;
 }
 @media only screen and (min-width: 993px) {
   header .naver {
     background-color: #0C0F0A;
-    border-top: 2px solid #00A676;
-    border-bottom: 2px solid #00A676;
   }
 }
 header .naver .logo {
   display: flex;
   justify-content: center;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 @media only screen and (min-width: 993px) {
   header .naver .logo:hover {
@@ -144,9 +137,7 @@ header .naver .navitems .listw:hover {
 header .naver .navitems .cuadro {
   border: 2px outset #00A676;
 }
-/* Fin Header */
 
-/* Mains | Sections */
 .containeer {
   padding: 50px 0;
   text-align: center;
@@ -415,9 +406,7 @@ main section .contenedor-us .texton .bienvenido .tf {
   height: 40px;
   text-align: center;
 }
-/* Fin Mains | Sections */
 
-/* Footer */
 footer {
   background-color: #0C0F0A;
   border-top: 2px solid #00A676;
@@ -577,13 +566,10 @@ footer div .marca .marca-propia {
   font-style: 500;
   font-size: 15px;
 }
-/* Fin Footer */
 
-/* Banner */
 section div div .banner {
   object-fit: fill;
   height: 558px auto;
 }
-/* Fin Banner */
 
 /*# sourceMappingURL=style.css.map */

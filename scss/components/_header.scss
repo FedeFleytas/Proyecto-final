@@ -11,18 +11,14 @@ header {
     @extend %h-f;
     .naver {
         background-color: map-get($map: $paleta, $key: "fondos");
-        border-top: $borderfoot;
-        border-bottom: $borderfoot;
         @media only screen and (min-width : 993px) {
             background-color: map-get($map: $paleta, $key: "fondos");
-            border-top: $borderfoot;
-            border-bottom: $borderfoot;
         }
         .logo {
             display: flex;
             justify-content: center;
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
 
             @media only screen and (min-width: 993px) {
                 &:hover {
