@@ -175,10 +175,13 @@ footer {
 
             @extend %flex-center;
             height: 25px;
-            background-color: map-get($map: $paleta, $key: "secundario");
+            border-bottom: $borderfoot;
+            border-top: $borderfoot;
+            background-color: $bg-color-principal;
 
             .marca-propia {
                 @extend %flex-center;
+                color: map-get($map: $paleta, $key: "primario");
                 font-family: $fuente-principal;
                 font-style: $estilo-fuente-p;
                 font-size: 15px;
